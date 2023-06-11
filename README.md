@@ -1,2 +1,6 @@
 # Multiple-Linear-Regression
 The equation of our multiple linear regression model is:  Profit=86.6×Dummy State 1−873×Dummy State 2+786×Dummy State 3+0.773×R&amp;D Spend+0.0329×Administration+0.0366×Marketing Spend+42467.53  
+Important Note: To get these coefficients we called the "coef_" and "intercept_" attributes from our regressor object. Attributes in Python are different than methods and usually return a simple value or an array of values.
+
+Lets Talk about Multiple Linear Regression:
+Multiple linear regression is a statistical technique used to model the relationship between multiple independent variables and a single dependent variable. It extends simple linear regression by incorporating multiple predictors. The goal is to estimate the coefficients that best fit the observed data, allowing us to understand the strength and direction of the relationships between predictors and the outcome. Various statistical metrics can assess the model's fit, such as R-squared and p-values. Multiple linear regression is widely used in various fields to analyze and predict outcomes based on multiple predictors. It provides a flexible framework for understanding variable relationships and making prediction
